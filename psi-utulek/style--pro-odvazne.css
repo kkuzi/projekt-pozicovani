@@ -1,0 +1,16 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+:root {
+  --page-bg-color: #a19393;
+  --header-bg-color: #5f5455;
+  --dog-bg-color-1: #e5e6e4;
+  --dog-bg-color-2: #cfd2cd;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
