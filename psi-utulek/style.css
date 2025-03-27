@@ -15,17 +15,29 @@ body {
   line-height: 1.4;
   background: var(--page-bg-color);
   color: white;
+  margin-inline: auto;
+  
 }
 
 .header {
+
+  
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: var(--header-bg-color);
   color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
 }
+.content {
+ margin: 100px 0 0 0;
 
+}
 .logo {
   font-size: 1.3em;
   font-weight: 900;
@@ -66,6 +78,11 @@ body {
   margin-top: 0;
 	font-size: 2em;
 	text-align: center;
+}
+
+.dog__image>img {
+  position: sticky;
+  top: 90px;
 }
 
 .dog {
